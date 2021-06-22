@@ -20,7 +20,7 @@ class ProductManagerTest {
      private Product prod4 = new Smartphone(4,"S8",300,"Samsung");
 
   @Test
-    void searchBy() {
+    void SearchBy() {
         repository.save(prod1);
         repository.save(prod2);
         repository.save(prod3);
@@ -33,7 +33,7 @@ class ProductManagerTest {
     }
 
     @Test
-    void searchBy2() {
+    void SearchBy2() {
         repository.save(prod1);
         repository.save(prod2);
         repository.save(prod3);
@@ -45,7 +45,7 @@ class ProductManagerTest {
         assertArrayEquals(actual, expected);
     }
     @Test
-    void searchBy4() {
+    void SearchBy4() {
         repository.save(prod1);
         repository.save(prod2);
         repository.save(prod3);
